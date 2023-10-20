@@ -24,7 +24,7 @@ public class VetoresEx14 {
             }
         }
 
-        //Nostrando valores ordenados
+        //Mostrando valores ordenados
         for(int l = 0; l <= 9; l++){
             System.out.println(valores[l]);
         }
