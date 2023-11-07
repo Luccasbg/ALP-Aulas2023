@@ -13,7 +13,7 @@ public class VetoresEx14 {
             valores[i] = sc.nextInt();
         }
 
-        //Bubble sort - ordenando vetor em order crescente
+        //Bubble sort - ordenando vetor em ordem crescente
         for(int j = 0; j <= 8; j++){
             for(int k = 0; k <= 8; k++){
                 if(valores[k] > valores[k + 1]){
@@ -24,7 +24,7 @@ public class VetoresEx14 {
             }
         }
 
-        //Nostrando valores ordenados
+        //Mostrando valores ordenados
         for(int l = 0; l <= 9; l++){
             System.out.println(valores[l]);
         }
